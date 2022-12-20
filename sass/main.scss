@@ -1,6 +1,7 @@
  @import './base/reset';
  @import './base/common';
  @import './base/hidden';
+ @import './base/overlay';
 
  @import './utils/variables';
 
@@ -8,6 +9,14 @@
 
  @import './layouts/header';
  @import './layouts/hero';
+ @import './layouts/section';
+ @import './layouts/features';
+ @import './layouts/work';
+ @import './layouts/our-team';
+ @import './layouts/clients';
+ @import './layouts/footer';
+ @import './layouts/modal';
+ @import './layouts/portfolio';
 
 body {
     font-family: "Roboto", sans-serif;
