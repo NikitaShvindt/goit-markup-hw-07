@@ -202,3 +202,33 @@ span.logo-footer {
 .auth-nav .link {
     color: #757575;
 }
+
+.site-nav {
+    display: flex;
+    margin-left: 93px;
+}
+
+.site-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.site-nav .li {
+    position: relative;
+}
+
+.site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.site-nav .link:focus,
+.site-nav .link:hover {
+    color: #2196f3;
+}
