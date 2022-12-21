@@ -6,6 +6,10 @@
 
 .clients-list {
     display: flex;
+
+    & .item+.item {
+      margin-left: 30px;
+        }
 }
 
 .clients-soc {
@@ -19,13 +23,9 @@
     fill: #afb1b8;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.clients-soc:hover {
-    fill: #2196f3;
-    border-color: #2196f3;
-}
-
-.clients-list .item+.item {
-    margin-left: 30px;
+    &:hover {
+     fill: #2196f3;
+     border-color: #2196f3;
+     }
 }

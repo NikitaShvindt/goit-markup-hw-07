@@ -43,11 +43,12 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+
+    &:hover {
+            fill: #2196f3;
+        }
 }
 
-.modal-close:hover {
-    fill: #2196f3;
-}
 
 .is-hidden {
     opacity: 0;
@@ -84,44 +85,56 @@
     fill: #2196f3;
 }
 
-.user-name:hover,
-.user-name:focus {
-    border-color: #2196f3;
+.user-name {
+    height: 40px;
+    outline: none;
+
+    &:hover,
+    &:focus {
+        border-color: #2196f3;
+    }
+
+    &:focus+svg,
+    &:hover+svg {
+        fill: #2196f3;
+    }
 }
 
-.user-name:focus+svg,
-.user-name:hover+svg {
-    fill: #2196f3;
+.user-mail {
+    height: 40px;
+    outline: none;
+
+    &:hover,
+    &:focus {
+        border-color: #2196f3;
+    }
+
+    &:focus+svg,
+    &:hover+svg {
+        fill: #2196f3;
+    }
 }
 
-.user-mail:hover,
-.user-mail:focus {
-    border-color: #2196f3;
+.user-tel {
+    height: 40px;
+    outline: none;
+
+    &:hover,
+    &:focus {
+        border-color: #2196f3;
+    }
+
+    &:focus+svg,
+    &:hover+svg {
+        fill: #2196f3;
+    }
 }
 
-.user-mail:focus+svg,
-.user-mail:hover+svg {
-    fill: #2196f3;
-}
-
-.user-tel:hover,
-.user-tel:focus {
-    border-color: #2196f3;
-}
-
-.user-tel:focus+svg,
-.user-tel:hover+svg {
-    fill: #2196f3;
-}
 
 .modal-input-wrapper {
     position: relative;
 }
 
-.user-name {
-    height: 40px;
-    outline: none;
-}
 
 .person {
     position: absolute;
@@ -131,22 +144,12 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.user-tel {
-    height: 40px;
-    outline: none;
-}
-
 .telefon {
     position: absolute;
     top: 50%;
     left: 12px;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.user-mail {
-    height: 40px;
-    outline: none;
 }
 
 .modal-mail {
@@ -225,12 +228,12 @@ textarea {
     background-color: #2196f3;
     color: #ffffff;
     border: 1px transparent;
-}
 
-.modal-btn:hover {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    cursor: pointer;
+    &:hover {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+            cursor: pointer;
+        }
 }
 
 .policy {
@@ -262,10 +265,10 @@ textarea {
     margin-right: 8px;
     display: flex;
     cursor: pointer;
-}
 
-.modal-icon-check svg {
-    fill: transparent;
+    & svg {
+            fill: transparent;
+        }
 }
 
 .checkbox:checked+label>span {
