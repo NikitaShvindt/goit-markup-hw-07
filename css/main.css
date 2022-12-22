@@ -101,6 +101,7 @@ a.logo {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  margin-right: 93px;
 }
 
 span.logo {
@@ -143,12 +144,12 @@ span.logo-footer {
 }
 
 /* menu-link */
-.menu-link {
+.navigation__link {
   position: relative;
   display: block;
   text-decoration: none;
 }
-.menu-link::after {
+.navigation__link::after {
   position: absolute;
   content: "";
   left: 0;
@@ -162,12 +163,12 @@ span.logo-footer {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-studio {
+.navigation__studio {
   position: relative;
   display: block;
   text-decoration: none;
 }
-.menu-studio::after {
+.navigation__studio::after {
   position: absolute;
   content: "";
   left: 0;
@@ -179,7 +180,7 @@ span.logo-footer {
   border-radius: 2px;
 }
 
-.menu-link:hover::after {
+.navigation__link:hover::after {
   opacity: 1;
 }
 
@@ -278,17 +279,16 @@ span.logo-footer {
   color: #757575;
 }
 
-.site-nav {
+.navigation__site {
   display: flex;
-  margin-left: 93px;
 }
-.site-nav .item:not(:last-child) {
+.navigation__site .item:not(:last-child) {
   margin-right: 50px;
 }
-.site-nav .li {
+.navigation__site .li {
   position: relative;
 }
-.site-nav .link {
+.navigation__site .link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -298,7 +298,7 @@ span.logo-footer {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.site-nav .link:focus, .site-nav .link:hover {
+.navigation__site .link:focus, .navigation__site .link:hover {
   color: #2196f3;
 }
 

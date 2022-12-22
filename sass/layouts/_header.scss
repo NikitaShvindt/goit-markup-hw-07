@@ -4,6 +4,7 @@ a.logo {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196f3;
+    margin-right: 93px;
 }
 
 span.logo {
@@ -48,7 +49,7 @@ span.logo-footer {
 
 /* menu-link */
 
-.menu-link {
+.navigation__link {
     position: relative;
 
     display: block;
@@ -72,7 +73,7 @@ span.logo-footer {
 }
 
 
-.menu-studio {
+.navigation__studio {
     position: relative;
 
     display: block;
@@ -94,7 +95,7 @@ span.logo-footer {
 }
 
 
-.menu-link:hover::after {
+.navigation__link:hover::after {
     opacity: 1;
 }
 
@@ -209,9 +210,8 @@ span.logo-footer {
 }
 
 
-.site-nav {
+.navigation__site {
     display: flex;
-    margin-left: 93px;
 
     & .item:not(:last-child) {
             margin-right: 50px;
