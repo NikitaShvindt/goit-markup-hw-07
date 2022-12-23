@@ -117,27 +117,6 @@ span.logo {
   color: #2196f3;
 }
 
-.logo-footer:focus,
-.logo-footer:hover {
-  color: #2196f3;
-}
-
-a.logo-footer {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #2196f3;
-}
-
-span.logo-footer {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
-
 /* header */
 .header {
   border-bottom: 1px solid #eeeeee;
@@ -543,6 +522,27 @@ span.logo-footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+a.logo-white {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+span.logo-color {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.logo-color:focus,
+.logo-color:hover {
+  color: #2196f3;
 }
 
 .footer-address {

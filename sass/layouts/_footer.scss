@@ -19,6 +19,27 @@
         }
 }
 
+a.logo-white {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+}
+
+span.logo-color {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+.logo-color:focus,
+.logo-color:hover {
+    color: #2196f3;
+}
+
 
 .footer-address {
     font-size: 14px;
